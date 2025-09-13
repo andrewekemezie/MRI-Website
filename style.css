@@ -1,0 +1,118 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #13767f;
+    color: #f8f6e3;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    opacity: 0.9;
+}
+
+footer {
+    background-color: #13767f;
+    color: #f8f6e3;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    opacity: 0.9;
+}
+
+main {
+    width: 80%;
+    max-width: 1200px;
+    margin: 100px auto 60px; /* Adjusted to create space for the fixed header and footer */
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.intro {
+    margin-bottom: 40px;
+    text-align: center; /* Centering the content inside the .intro section */
+    text-align: justify;
+}
+
+.intro p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin: 0 auto; /* Center the paragraph with automatic margins */
+    max-width: 800px; /* Optional: limit the maximum width for readability */
+}
+
+.event-section {
+    background-color: #f9f9f6;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(4, 83, 73, 0.1);
+    margin-bottom: 50px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h2 {
+    color: #0d38bb;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+h3 {
+    color: #13767f;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.week-list {
+    margin-bottom: 1px;
+}
+
+.week-list ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 10px;
+    display: inline; /* Ensure list items are displayed inline without markers */
+}
+
+a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #0a9b96;
+    color: #f8f6e3;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+a.button:hover {
+    background-color: #003fd2;
+    transform: scale(1.05);
+}

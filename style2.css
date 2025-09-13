@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #13767f;
+    color: #f1efe1;
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    opacity: 0.9;
+}
+
+footer {
+    background-color: #13767f;
+    
+    padding: 0px 0;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    opacity: 0.9;
+}
+
+.container {
+    flex: 1;
+    max-width: 800px;
+    text-align: left;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    margin: 90px auto 20px; /* Adjusted for header height */
+}
+
+h1 {
+    color: #004c8c;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #0056b3;
+    margin-top: 30px;
+}
+
+p {
+    color: #333333;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: decimal;
+    padding-left: 20px;
+    color: #444444;
+    font-size: 16px;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+.references {
+    font-size: 14px;
+    color: #666666;
+    margin-top: 30px;
+}
+
+.references p {
+    margin: 5px 0;
+    font-size: 12.5px;
+}
+.header{
+    color: #f8f6e3;
+}
+
+
+.footer1{
+    color: #f8f6e3;
+}
+
+
+ /* START TABLE BEFORE DOCUMENTS */
+.summary-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.summary-table thead {
+    background-color: #f2f2f2;
+}
+
+.summary-table th,
+.summary-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.summary-table th {
+    background-color: #0b128e;
+    color: white;
+}
+
+.summary-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.summary-table tr:hover {
+    background-color: #f1f1f1;
+}
+/* END TABLE BEFORE DOCUMENTS */
